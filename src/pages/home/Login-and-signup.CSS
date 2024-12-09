@@ -1,0 +1,141 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #cccccc61;
+}
+.container {
+    display: flex;
+    width: 800px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.6s ease-in-out;
+}
+.form-container, .overlay-container {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.form-container h2, .overlay-container h2 {
+    margin: 0 0 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.form-container input, .overlay-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #eee;
+}
+.form-container button, .overlay-container button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #17a2b8;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.form-container button:hover, .overlay-container button:hover {
+    background-color: #138496;
+}
+.form-container .social-container, .overlay-container .social-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.form-container .social-container a, .overlay-container .social-container a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+}
+.overlay-container {
+    background: linear-gradient(to right, #17a2b8c7, #2a5298db);
+    color: #fff;
+   
+}
+.overlay-container button {
+    border: 2px solid #fff;
+    background-color: transparent;
+}
+.overlay-container button:hover {
+    background-color: #fff;
+    color: #1e3c72;
+}
+.hidden {
+    display: none;
+}
+
+#create-account-words{
+    color: #17a2b8;
+    font-family: system-ui, sans-serif;
+    margin-bottom: -10px;
+}
+
+#cs-minds{
+    position: absolute;
+    font-size: 2.3rem;
+    margin-top: -270px;
+}
+
+.social-container i{
+    color: #fff;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: -23px;
+}
+
+.social-container i:hover{
+    color: #333;
+}
+
+.social-container a{
+    padding-left: 30px;
+}
+
+#gray-text{
+    color: gray;
+    margin-bottom: -5px;
+}
+
+#Login{
+    color: #17a2b8;
+}
+
+#forgot-pass{
+    text-decoration: none;
+    color: gray;
+    font-size: small;
+    position: absolute;
+    bottom: 130px; 
+}
+
+#forgot-pass:hover{
+    color: #17a2b8;
+}
+
+.form-container input{
+    outline: none;
+}
+
+
+.submit_create_account{
+    margin-left: 120px;
+}
+
+.login-btn{
+    margin-left: 120px;
+}
